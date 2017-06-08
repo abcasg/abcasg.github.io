@@ -66,6 +66,7 @@
                 <file name="cocos2d/core/sprites/CCSpriteCanvasRenderCmd.js"/>
                 <file name="cocos2d/core/sprites/CCSpriteWebGLRenderCmd.js"/>
                 <file name="cocos2d/core/sprites/CCSpriteBatchNode.js"/>
+                <file name="cocos2d/core/sprites/CCBakeSprite.js"/>
                 <file name="cocos2d/core/sprites/CCAnimation.js"/>
                 <file name="cocos2d/core/sprites/CCAnimationCache.js"/>
                 <file name="cocos2d/core/sprites/CCSpriteFrame.js"/>
