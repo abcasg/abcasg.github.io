@@ -100,6 +100,14 @@
                 <file name="cocos2d/shaders/CCShaderCache.js"/>
                 <file name="cocos2d/shaders/CCGLProgram.js"/>
                 <file name="cocos2d/shaders/CCGLStateCache.js"/>
+                <file name="cocos2d/actions/CCAction.js"/>
+                <file name="cocos2d/actions/CCActionInterval.js"/>
+                <file name="cocos2d/actions/CCActionInstant.js"/>
+                <file name="cocos2d/actions/CCActionEase.js"/>
+                <file name="cocos2d/actions/CCActionCatmullRom.js"/>
+                <file name="cocos2d/actions/CCActionTween.js"/>
+                <file name="cocos2d/menus/CCMenuItem.js"/>
+                <file name="cocos2d/menus/CCMenu.js"/>
 
             </sources>
             <sources dir="${basedir}">
