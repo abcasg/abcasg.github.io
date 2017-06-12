@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
-<project name="Javascript compress project" basedir="E:\cocosproject\js\sanxiao" default="compile">
+<project name="Javascript compress project" basedir="E:\cocos2d-x-3.12\projects\js\sanxioa0612" default="compile">
 
     <taskdef name="jscomp" classname="com.google.javascript.jscomp.ant.CompileTask"
-             classpath="E:\cocos\cocos2d-x-3.12\tools\cocos2d-console\plugins\plugin_compile\build_web/bin/compiler-1.7.jar"/>
+             classpath="E:\cocos2d-x-3.12\tools\cocos2d-console\plugins\plugin_compile\build_web/bin/compiler-1.7.jar"/>
 
     <target name="compile">
         <jscomp compilationLevel="advanced" 
                 warning="quiet"
                 debug="false" 
-                output="E:\cocosproject\js\sanxiao\publish\html5/game.min.js"
+                output="E:\cocos2d-x-3.12\projects\js\sanxioa0612\publish\html5/game.min.js"
                 languagein="ECMASCRIPT5"
                 
                 >
-            <sources dir="E:\cocosproject\js\sanxiao\frameworks\cocos2d-html5">
+            <sources dir="E:\cocos2d-x-3.12\projects\js\sanxioa0612\frameworks\cocos2d-html5">
                 <file name="CCBoot.js"/>
                 <file name="cocos2d/core/event-manager/CCEventHelper.js"/>
                 <file name="CCDebugger.js"/>
